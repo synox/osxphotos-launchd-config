@@ -1,0 +1,1 @@
+# osxphotos-launchd-config
