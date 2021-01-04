@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>aravindo.export-photos</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>open</string>
+    <string>-W</string>
+    <string>--background</string>
+    <string>-a</string>
+    <string>/Users/aravindo/bin/export-photos.app</string>
+  </array>
+
+ 
+  <key>RunAtLoad</key>
+  <true/>
+ 
+  <key>StartInterval</key>
+  <integer>3600</integer>
+  
+  <key>StandardErrorPath</key>
+  <string>/Users/aravindo/bin/export-photos.bash-err.log</string>
+
+  <key>StandardOutPath</key>
+  <string>/Users/aravindo/bin/export-photos.bash-out.log</string>
+</dict>
+</plist>
